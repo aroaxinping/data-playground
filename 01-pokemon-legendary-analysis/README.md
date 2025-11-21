@@ -1,37 +1,39 @@
-# ¿Qué hace a un Pokémon legendario?
+# What makes a Pokemon legendary?
 
-Análisis exploratorio de datos para identificar las características que definen a un Pokémon legendario.
+Exploratory data analysis to identify the characteristics that define a legendary Pokemon.
 
-## Análisis
+---
 
-- **Dataset:** 800 Pokémon (Generaciones 1-6)
-- **Legendarios:** 65 (8% del total)
-- **Método:** Análisis estadístico comparativo y visualización
+## Dataset
 
-## 🔍 Hallazgos principales
+- 800 Pokemon (Generations 1–6)
+- 65 legendaries (8% of total)
+- Method: comparative statistical analysis and visualization
 
-1. **Stats superiores:** Los legendarios tienen ~100 puntos más de stats totales en promedio
-2. **Tipos dominantes:** Psychic (14) y Dragon (12) representan el 40% de los legendarios
-3. **Distribución clara:** Separación evidente en stats totales (legendarios >580 vs normales <540)
-4. **Patrón visual:** Cluster dorado distinguible en Attack vs Defense
+---
 
-## 📈 Visualizaciones
+## Key findings
 
-- Scatter plot: Attack vs Defense con legendarios destacados
-- Comparación de stats promedio por categoría
-- Distribución de stats totales
-- Top tipos más comunes en legendarios
+1. **Higher base stats** — legendaries average ~100 more total stat points
+2. **Dominant types** — Psychic (14) and Dragon (12) account for 40% of legendaries
+3. **Clear separation** — stat totals split visibly (legendaries >580 vs non-legendaries <540)
+4. **Visual cluster** — legendaries form a distinct group in Attack vs Defense space
 
-## 🛠️ Herramientas
+---
 
-- Python 3.14
-- Pandas 2.3
-- Matplotlib 3.10
-- Jupyter Notebook
+## Visualizations
 
-## 📁 Archivos
+- Attack vs Defense scatter plot with legendaries highlighted
+- Average stat comparison by category
+- Total stat distribution
+- Most common types among legendaries
 
-- `analisis-pokemon-legendarios.ipynb`: Notebook completo con análisis y visualizaciones
+---
 
+## Stack
 
+Python · pandas · matplotlib · Jupyter
 
+## File
+
+`analisis-pokemon-legendarios.ipynb` — full notebook with analysis and charts
