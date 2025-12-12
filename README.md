@@ -1,5 +1,5 @@
 # data-playground
-
+Answering my own random questions with real data.
 Personal data projects for learning, experimentation, and turning curiosity into insights.
 
 ---
