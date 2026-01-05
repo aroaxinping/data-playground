@@ -20,6 +20,16 @@ en Valencia ciudad y municipios colindantes se disparó de golpe.
 | Comparativa ciudades | ¿Valencia vs Madrid/Barcelona — diverge tras octubre 2024? |
 | Asequibilidad | ¿El salario medio en Valencia alcanza para pagar el alquiler? |
 
+## Conceptos aplicados
+
+**EDA histórico** — se visualiza la evolución del precio del alquiler en Valencia desde 2019 hasta 2024 para entender la tendencia base antes del evento. Fundamental para distinguir qué es tendencia preexistente y qué es impacto real de la DANA.
+
+**Event study** — se toma el 29 de octubre de 2024 como evento y se mide cómo evolucionan los precios en los ±6 meses alrededor de esa fecha. Permite ver si el shock fue inmediato, gradual, o si ya se anticipaba.
+
+**Comparativa con ciudades control** — se compara Valencia con Madrid y Barcelona, que no sufrieron la DANA. Si los precios suben en Valencia pero no en las otras ciudades en el mismo período, es más probable que la subida se deba a la DANA y no a factores generales del mercado.
+
+**Análisis de asequibilidad** — ratio entre el precio del alquiler y el salario medio de la zona. Si el alquiler supera el 30–40% del salario neto, se considera que la vivienda no es asequible para el trabajador típico.
+
 ## Datos
 
 - **MITMA — Ministerio de Transportes** (precios venta por municipio, gratis)

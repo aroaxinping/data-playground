@@ -18,6 +18,16 @@ La teoría contraria dice que cuando todos tienen miedo es el momento de comprar
 | Event study | ¿Qué pasa con el precio en los ±15 días de Fear Extremo (<20)? |
 | Rocket & Feather | ¿El miedo cae más rápido de lo que se recupera la confianza? |
 
+## Conceptos aplicados
+
+**EDA de series temporales** — exploración visual de la evolución del precio de BTC y del Fear & Greed Index a lo largo del tiempo. Se busca si las dos series se mueven juntas, en sentido contrario, o con retardo.
+
+**Correlación con lag** — mide si el Fear & Greed de hoy predice el precio del Bitcoin de dentro de k días. Si el lag k=7 tiene correlación alta, significa que el sentimiento del mercado esta semana anticiparía el precio de la próxima.
+
+**Event study** — se identifican todos los días históricos en que el índice cayó por debajo de 20 (pánico extremo) y se mide cómo se comportó el precio de BTC en los ±15 días alrededor de esos momentos. Responde: ¿el pánico precede a las caídas o a las recuperaciones?
+
+**Rocket & Feather** — test de asimetría en la transmisión de señales. La hipótesis es que el miedo (caída del índice) se propaga rápido al precio, pero la recuperación de la confianza tarda más. Si es así, los bajistas tienen ventaja informativa sobre los alcistas en el corto plazo.
+
 ## Datos
 
 Ambas fuentes son gratuitas y no requieren API key:

@@ -30,6 +30,18 @@ Exploratory data analysis to identify the characteristics that define a legendar
 
 ---
 
+## Conceptos aplicados
+
+**EDA (Exploratory Data Analysis)** — antes de responder cualquier pregunta, se explora el dataset: cuántos registros hay, qué variables existen, si hay valores nulos, cómo se distribuyen. Es el paso 0 obligatorio de cualquier análisis de datos.
+
+**Estadística descriptiva** — media, mediana, desviación típica. Resumen numérico de lo que de otra forma sería una lista de 800 filas. Permiten comparar grupos de un vistazo.
+
+**Análisis comparativo por grupos** — se calculan las estadísticas por separado para legendarios y no legendarios y se comparan. Si la diferencia entre medias es grande respecto a la variabilidad, hay un patrón real y no ruido.
+
+**Visualización exploratoria** — scatter plots, histogramas, barras. En datos con grupos bien separados, la visualización revela el patrón antes que cualquier test estadístico.
+
+---
+
 ## Stack
 
 Python · pandas · matplotlib · Jupyter

@@ -39,6 +39,18 @@ Stack Overflow Developer Survey 2023 — 89,184 responses, 84 variables, global 
 
 ---
 
+## Conceptos aplicados
+
+**EDA (Exploratory Data Analysis)** — exploración inicial del dataset para entender su estructura, distribuciones y posibles relaciones antes de hacer cualquier análisis formal.
+
+**Correlación de Pearson** — mide si dos variables numéricas se mueven juntas y en qué dirección. r = 1 es correlación perfecta positiva, r = 0 es sin relación. Aquí se usa para ver si más años de experiencia implican mayor salario.
+
+**Comparación de grupos** — se calcula la media salarial por modalidad de trabajo (remoto / híbrido / presencial) y se comparan. La diferencia porcentual (64%) cuantifica el efecto del trabajo remoto.
+
+**Ranking y agregación** — agrupar por lenguaje de programación y calcular el salario mediano permite ordenar qué tecnologías pagan más, filtrando el ruido de valores extremos.
+
+---
+
 ## Stack
 
 Python · pandas · matplotlib · Jupyter
