@@ -59,6 +59,22 @@ Lag correlation, event study y Rocket & Feather test.
 
 ---
 
+### 8. [¿El "89% más hidratación" de Olay es real?](./08-olay-89-claim/)
+Deconstrucción estadística del claim de marketing más famoso de la industria cosmética.
+¿89% más que qué baseline? ¿Con cuántos sujetos? ¿Método objetivo o subjetivo?
+
+**Dataset:** Claims públicos + literatura dermatológica (PubMed) · **Stack:** Python, pandas, matplotlib
+
+---
+
+### 9. [¿Los estudios de Clarins Double Serum aguantan un análisis estadístico?](./09-clarins-double-serum-claims/)
+Clarins publica metodología real: n declarado, método de medición y duración por estudio.
+Análisis de potencia estadística, subjetivo vs instrumental, y validez del diseño de gemelos.
+
+**Dataset:** Metodología publicada por Clarins + PubMed · **Stack:** Python, pandas, scipy, matplotlib
+
+---
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
