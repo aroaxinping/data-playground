@@ -75,6 +75,14 @@ Análisis de potencia estadística, subjetivo vs instrumental, y validez del dis
 
 ---
 
+### 10. [Vichy Minéral 89: ¿El marketing dice lo mismo que los estudios publicados?](./10-vichy-mineral89/)
+Vichy tiene estudios reales en PubMed con Corneómetro, Tewameter y grupos control.
+¿Los claims de marketing usan esos datos honestamente? ¿Rosácea = "todas las pieles"?
+
+**Dataset:** 5 estudios PMC/PubMed (acceso abierto) + claims web oficial · **Stack:** Python, pandas, scipy, matplotlib
+
+---
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
