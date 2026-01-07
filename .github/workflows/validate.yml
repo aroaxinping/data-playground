@@ -1,0 +1,59 @@
+name: Validate analysis scripts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-08:
+    name: Project 08 — Olay claim analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r 08-olay-89-claim/requirements.txt
+      - name: Run analysis
+        run: |
+          cd 08-olay-89-claim
+          python analysis.py
+        env:
+          MPLBACKEND: Agg
+
+  validate-09:
+    name: Project 09 — Clarins methodology analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r 09-clarins-double-serum-claims/requirements.txt
+      - name: Run analysis
+        run: |
+          cd 09-clarins-double-serum-claims
+          python analysis.py
+        env:
+          MPLBACKEND: Agg
+
+  validate-10:
+    name: Project 10 — Vichy M89 analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r 10-vichy-mineral89/requirements.txt
+      - name: Run analysis
+        run: |
+          cd 10-vichy-mineral89
+          python analysis.py
+        env:
+          MPLBACKEND: Agg
