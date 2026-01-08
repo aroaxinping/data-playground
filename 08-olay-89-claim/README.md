@@ -1,5 +1,7 @@
 # ¿El "89% más hidratación" de Olay es real?
 
+[![CI](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml/badge.svg)](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml)
+
 Deconstrucción estadística del claim de marketing más famoso de la industria cosmética.
 Olay afirma en packaging y publicidad "89% más hidratación". ¿Qué significa ese número realmente?
 

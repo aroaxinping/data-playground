@@ -1,5 +1,7 @@
 # Vichy Minéral 89: ¿El marketing dice lo mismo que los estudios publicados?
 
+[![CI](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml/badge.svg)](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml)
+
 Vichy es una de las pocas marcas cosméticas con estudios reales en PubMed.
 Corneómetro, Tewameter, Chromameter, grupos control split-face, p-values, registro NCT.
 La pregunta no es si el producto funciona — es si el marketing usa esos datos honestamente.
