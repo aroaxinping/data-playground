@@ -184,6 +184,8 @@ def extract_numbers_from_abstract(text: str) -> dict:
         match = re.search(pattern, text, re.IGNORECASE)
         if match:
             val = match.group(1)
+            if val is None:
+                continue
             try:
                 extracted[key] = float(val) if "." in val else int(val)
             except ValueError:
