@@ -36,10 +36,11 @@ Análisis de asequibilidad de la vivienda en España, cruzando salarios medianos
 
 ## Hallazgos Clave
 
-- Barcelona y Madrid son las ciudades más inasequibles, seguidas de Palma de Mallorca y Málaga
-- El ratio alquiler/salario supera el 40% en varias ciudades — muy por encima del umbral saludable del 30%
-- La brecha ha empeorado significativamente entre 2019 y 2024
-- País Vasco, a pesar de tener los salarios más altos, no escapa a la presión inmobiliaria en Bilbao
+- **Todas las ciudades analizadas** superan el umbral del 30% — ninguna ciudad importante de España es asequible
+- **Barcelona y Madrid** lideran la inasequibilidad (>100% del salario neto mensual en alquiler)
+- **Palma de Mallorca y Málaga** son las siguientes más afectadas, impulsadas por el turismo
+- **El esfuerzo económico se ha disparado entre 2019 y 2024**: en Valencia, el ratio pasó de ~55% a ~72%
+- **País Vasco** tiene los salarios más altos de España pero Bilbao sigue estando por encima del umbral
 
 ## Uso
 
