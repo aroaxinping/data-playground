@@ -19,9 +19,23 @@ Este proyecto explora si el tono de las noticias económicas tiene capacidad pre
 - Correlograma cruzado: pearsonr en lags 0–8
 - Scatter: sentimiento en t vs retorno IBEX en t+1
 
+## Resultados
+
+El correlograma cruzado muestra que el **lag 1** presenta la correlación más elevada (r ≈ 0.078) entre sentimiento y retorno del IBEX, consistente con la estructura del dataset sintético donde la señal fue inyectada por construcción (`sentiment[t] ~ return[t+1]`). Los lags 2–8 decaen hacia cero.
+
+El scatter sentimiento–retorno t+1 confirma la pendiente positiva esperada. En datos reales, esta señal sería significativamente más débil.
+
 ## Metodología
 
-TBD
+- Datos sintéticos generados con `np.random.seed(2021)`
+- Paseo aleatorio para precios IBEX, reescalado a rango 8200–9800
+- Sentimiento construido como combinación lineal del retorno siguiente + ruido gaussiano (σ=0.3)
+- Correlación cruzada calculada manualmente con `pearsonr` de scipy.stats
+- Bandas de significancia al 95%: |r| > 2/√n
+
+## Conexión con proyecto 04
+
+Este análisis es complementario al **proyecto 04** (Google Trends vs IBEX 35). Ambos proyectos exploran si señales de comportamiento colectivo — búsquedas online, tono de noticias — anticipan movimientos del mercado español con un adelanto de ~1 semana.
 
 ## Requisitos
 
