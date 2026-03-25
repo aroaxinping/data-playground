@@ -1,37 +1,28 @@
+# data-playground
 
-# 🎮 data-playground
-
-Explorando datasets para responder preguntas que despiertan mi curiosidad. 
-Un espacio para experimentar, aprender haciendo y convertir datos en insights relevantes.
+Personal data projects for learning, experimentation, and turning curiosity into insights.
 
 ---
 
-## 🗄️ Proyectos
+## Projects
 
-### 1. [Análisis Pokémon Legendarios](./01-pokemon-legendary-analysis/)
-Análisis exploratorio para identificar qué características definen a un Pokémon legendario.
+### 1. [Pokemon Legendary Analysis](./01-pokemon-legendary-analysis/)
+Exploratory analysis to identify which characteristics define a legendary Pokemon.
 
-**Dataset:** 800 Pokémon • **Tech:** Python, Pandas, Matplotlib
-
----
-
-### 2. [Tech Salaries & Remote Work 2023](./02-tech-salaries-remote-work/) 
-Análisis de factores salariales en tech y el impacto del trabajo remoto.
-
-**Dataset:** Stack Overflow Survey (89K+ devs) • **Tech:** Python, Pandas, Matplotlib
+**Dataset:** 800 Pokemon · **Stack:** Python, pandas, matplotlib
 
 ---
 
-## 🛠️ Tech Stack
+### 2. [Tech Salaries & Remote Work](./02-tech-salaries-remote-work/)
+Analysis of salary factors in tech and the impact of remote work.
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Pandas](https://img.shields.io/badge/Pandas-2.3-green)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10-orange)
-
----
-
-## ✏️ Sobre este repositorio
-
-Este repositorio refleja mi enfoque práctico para aprender data: sumergirme en datasets reales, hacer preguntas y desarrollar las habilidades necesarias para encontrar las respuestas que busco. 
+**Dataset:** Stack Overflow Survey (89K+ devs) · **Stack:** Python, pandas, matplotlib
 
 ---
+
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas)
+![matplotlib](https://img.shields.io/badge/matplotlib-3.x-11557c)
+![Jupyter](https://img.shields.io/badge/Jupyter-notebook-orange?logo=jupyter)
