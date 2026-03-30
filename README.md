@@ -20,6 +20,13 @@ Analysis of salary factors in tech and the impact of remote work.
 
 ---
 
+### 3. [Petroleo, Guerras y el Surtidor](https://github.com/aroaxinping/data-playground-gasolina)
+Correlation and causality between geopolitical conflicts and petrol prices in Spain. Pearson, Lag, Granger, Event Study, Rocket & Feather.
+
+**Dataset:** Brent (FRED) + MITECO · **Stack:** Python, pandas, statsmodels
+
+---
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
