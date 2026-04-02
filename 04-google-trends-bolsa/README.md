@@ -18,6 +18,16 @@ Cuando la gente empieza a buscar "recesión", "despido" o "crisis" en Google,
 | Granger Causality | ¿Búsquedas → IBEX o IBEX → búsquedas? |
 | Event study | ¿Qué pasa con el IBEX en los ±30 días de un pico de búsqueda? |
 
+## Conceptos aplicados
+
+**EDA de series temporales** — exploración de dos series que evolucionan en el tiempo (búsquedas + IBEX). Se visualizan juntas para detectar si se mueven en la misma dirección, si una va antes que la otra, o si no tienen relación aparente.
+
+**Correlación con lag** — la correlación de Pearson normal mide la relación entre dos series en el mismo instante. La lag correlation mide si la serie A de hoy se parece a la serie B de dentro de k semanas. Si el lag k=2 tiene la correlación más alta, significa que las búsquedas anticipan el IBEX 2 semanas.
+
+**Causalidad de Granger** — test estadístico que responde: ¿saber el valor pasado de X mejora la predicción de Y? Si sí, se dice que X "Granger-causa" Y. Importante: no implica causalidad real, solo que X tiene información predictiva sobre Y.
+
+**Event study** — se define un evento (pico de búsquedas de "recesión") y se mide cómo se comporta el IBEX en los ±30 días alrededor de ese evento, promediando sobre todos los eventos históricos. Muestra si el mercado reacciona antes, durante o después del pico de búsquedas.
+
 ## Datos
 
 Ambas fuentes son gratuitas:
