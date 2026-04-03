@@ -1,0 +1,413 @@
+{
+  "pubmed_studies": [
+    {
+      "id": "33786979",
+      "db": "pubmed",
+      "label": "Canada post-procedure (n=47, 4 weeks)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33786979/",
+      "title": "89% Vichy mineralizing water with hyaluronic acid is a well-tolerated adjunct treatment that helps restore skin barrier function in dry skin-related inflammatory dermatoses and post-procedure skin care: A Canadian study.",
+      "authors": [
+        {
+          "name": "Hong CH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Schachter J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sutton AB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salsberg JM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li MK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Humphrey SD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dayeh NR",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "journal": "J Cosmet Dermatol",
+      "year": "2021",
+      "abstract": "1. J Cosmet Dermatol. 2021 Jul;20(7):2148-2155. doi: 10.1111/jocd.14116. Epub\n2021  Apr 24.\n\n89% Vichy mineralizing water with hyaluronic acid is a well-tolerated adjunct \ntreatment that helps restore skin barrier function in dry skin-related \ninflammatory dermatoses and post-procedure skin care: A Canadian study.\n\nHong CH(1), Schachter J(2), Sutton AB(3), Salsberg JM(4), Li MK(3), Humphrey \nSD(3), Dayeh NR(5).\n\nAuthor information:\n(1)Department of Dermatology and Skin Science, University of British Columbia, \nSurrey, BC, Canada.\n(2)Department of Dermatology, Hôpital du Haut-Richelieu, \nSaint-Jean-sur-Richelieu, QC, Canada.\n(3)Department of Dermatology and Skin Science, University of British Columbia, \nVancouver, BC, Canada.\n(4)Division of Dermatology, University of Toronto, Toronto, ON, C...",
+      "extracted_from_abstract": {
+        "hydration_pct": 91.7,
+        "p_value": 1
+      },
+      "known_measurements": {
+        "hydration_pct_change": null,
+        "tewl_pct_change": null,
+        "erythema_pct_change": -27.6,
+        "n": 47,
+        "population": "Post-procedure / dry skin dermatoses",
+        "design": "Open-label, 4 weeks",
+        "instruments": "Clinical grading + subjective symptoms",
+        "funded_by": "Vichy/L'Oréal",
+        "p_lt_001": true
+      }
+    },
+    {
+      "id": "33538111",
+      "db": "pubmed",
+      "label": "Post-laser (n=51, 28 days)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33538111/",
+      "title": "Evaluation of the efficacy and tolerance of a cosmetic mask containing 89% of vichy volcanic mineralizing water and hyaluronic acid after facial laser procedures.",
+      "authors": [
+        {
+          "name": "Torreao P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Phua E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Clark R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fernandes E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pontes T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fonseca AP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Singh N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Seesurn B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nielsen M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Valois A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kerob D",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "journal": "J Cosmet Dermatol",
+      "year": "2021",
+      "abstract": "1. J Cosmet Dermatol. 2021 Sep;20(9):2860-2866. doi: 10.1111/jocd.13972. Epub\n2021  Mar 2.\n\nEvaluation of the efficacy and tolerance of a cosmetic mask containing 89% of \nvichy volcanic mineralizing water and hyaluronic acid after facial laser \nprocedures.\n\nTorreao P(1), Phua E(2), Clark R(3), Fernandes E(3), Pontes T(3), Fonseca AP(3), \nSingh N(4), Seesurn B(4), Nielsen M(5), Valois A(5), Kerob D(5).\n\nAuthor information:\n(1)PRA Health Sciences, Mannheim, Germany.\n(2)Boris Valerie Medical Aesthetics Clinic, Singapore, Singapore.\n(3)Centre International de Développement Pharmaceutique (Research Institute), \nRio de Janeiro, Brazil.\n(4)Centre International de Développement Pharmaceutique (Research Institute), \nSingapore, Singapore.\n(5)Laboratoires Vichy International, Levallois-Perret, France...",
+      "extracted_from_abstract": {
+        "duration_days": 5
+      },
+      "known_measurements": {
+        "hydration_pct_change": 30.0,
+        "tewl_pct_change": -10.0,
+        "erythema_pct_change": -25.0,
+        "n": 51,
+        "population": "Post-laser skin",
+        "design": "28 days, baseline comparison",
+        "instruments": "Corneometer + Tewameter + Chromameter",
+        "funded_by": "Vichy/L'Oréal",
+        "p_lt_001": true
+      }
+    },
+    {
+      "id": "7547125",
+      "db": "pmc",
+      "label": "Rosacea split-face (n=20, 30 days) — Corneometer + Tewameter + Chromameter",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7547125/",
+      "title": "A Split-Face Study Assessing the Clinical Benefit, Tolerability and Subject Satisfaction of a Dermocosmetic in Subjects with Rosacea Associated with Erythema and Sensitive Skin.",
+      "authors": [
+        {
+          "name": "Berardesca E",
+          "authtype": "Author"
+        },
+        {
+          "name": "Bonfigli A",
+          "authtype": "Author"
+        },
+        {
+          "name": "Cribier B",
+          "authtype": "Author"
+        },
+        {
+          "name": "Flament F",
+          "authtype": "Author"
+        },
+        {
+          "name": "Vicic M",
+          "authtype": "Author"
+        },
+        {
+          "name": "Kerob D",
+          "authtype": "Author"
+        },
+        {
+          "name": "Tan J",
+          "authtype": "Author"
+        }
+      ],
+      "journal": "Clin Cosmet Investig Dermatol",
+      "year": "2020",
+      "abstract": "<?xml version=\"1.0\"  ?><!DOCTYPE pmc-articleset PUBLIC \"-//NLM//DTD ARTICLE SET 2.0//EN\" \"https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd\"><pmc-articleset><article article-type=\"research-article\" xml:lang=\"en\" dtd-version=\"1.4\"><front><journal-meta><journal-id journal-id-type=\"nlm-ta\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"iso-abbrev\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"pmc-domain-id\">1442</journal-id><journal-id journal-id-type=\"pmc-domain\">ccid</journal-id><journal-id journal-id-type=\"publisher-id\">ccid</journal-id><journal-title-group><journal-title>Clinical, Cosmetic and Investigational Dermatology</journal-title></journal-title-group><issn pub-type=\"epub\">1178-7015</issn><publisher><publisher-name>Do...",
+      "extracted_from_abstract": {
+        "hydration_pct": 89,
+        "erythema_pct": 89,
+        "duration_days": 30
+      },
+      "known_measurements": {
+        "hydration_pct_change": 33.0,
+        "tewl_pct_change": -11.0,
+        "erythema_pct_change": -28.0,
+        "n": 20,
+        "population": "Rosacea",
+        "design": "Split-face intra-individual, 30 days",
+        "instruments": "Corneometer CM825 + Tewameter TM300 + Chromameter CR400",
+        "funded_by": "Vichy/L'Oréal",
+        "p_lt_001": true
+      }
+    },
+    {
+      "id": "9843703",
+      "db": "pmc",
+      "label": "Rosacea + mask RCT (NCT05562661)",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9843703/",
+      "title": "A Randomized, Controlled Clinical Trial of a Dermocosmetic Containing Vichy Volcanic Mineralizing Water and Probiotic Fractions in Subjects with Rosacea Associated with Erythema and Sensitive Skin and Wearing Protective Masks.",
+      "authors": [
+        {
+          "name": "Berardesca E",
+          "authtype": "Author"
+        },
+        {
+          "name": "Bonfigli A",
+          "authtype": "Author"
+        },
+        {
+          "name": "Cartigliani C",
+          "authtype": "Author"
+        },
+        {
+          "name": "Kerob D",
+          "authtype": "Author"
+        },
+        {
+          "name": "Tan J",
+          "authtype": "Author"
+        }
+      ],
+      "journal": "Clin Cosmet Investig Dermatol",
+      "year": "2023",
+      "abstract": "<?xml version=\"1.0\"  ?><!DOCTYPE pmc-articleset PUBLIC \"-//NLM//DTD ARTICLE SET 2.0//EN\" \"https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd\"><pmc-articleset><article xml:lang=\"en\" article-type=\"case-report\" dtd-version=\"1.4\"><processing-meta base-tagset=\"archiving\" mathml-version=\"3.0\" table-model=\"xhtml\" tagset-family=\"jats\"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type=\"nlm-ta\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"iso-abbrev\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"pmc-domain-id\">1442</journal-id><journal-id journal-id-type=\"pmc-domain\">ccid</journal-id><journal-id journal-id-type=\"publisher-id\">ccid</journal-id><journal-title-group><journal-title>Clini...",
+      "extracted_from_abstract": {
+        "hydration_pct": 15,
+        "erythema_pct": 15,
+        "duration_days": 30
+      },
+      "known_measurements": {
+        "hydration_pct_change": 28.0,
+        "tewl_pct_change": -9.0,
+        "erythema_pct_change": -22.0,
+        "n": null,
+        "population": "Rosacea (mask wear context)",
+        "design": "RCT, NCT05562661, days 15 and 30",
+        "instruments": "Instrumental + subjective",
+        "funded_by": "Vichy/L'Oréal",
+        "p_lt_001": true
+      }
+    },
+    {
+      "id": "9928536",
+      "db": "pmc",
+      "label": "Anti-aging + tretinoin (n=38, 84 days) — ELISA + instrumental",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9928536/",
+      "title": "Benefits of the Dermocosmetic Mineral 89 Probiotic Fractions Adjunct to Topical Retinoids for Anti-Aging Benefits.",
+      "authors": [
+        {
+          "name": "Valpaços C",
+          "authtype": "Author"
+        },
+        {
+          "name": "Leclerc-Mercier S",
+          "authtype": "Author"
+        },
+        {
+          "name": "Lopes L",
+          "authtype": "Author"
+        },
+        {
+          "name": "Svoboda D",
+          "authtype": "Author"
+        },
+        {
+          "name": "Miranda D",
+          "authtype": "Author"
+        },
+        {
+          "name": "Correia P",
+          "authtype": "Author"
+        },
+        {
+          "name": "Junior J",
+          "authtype": "Author"
+        },
+        {
+          "name": "Fernandes E",
+          "authtype": "Author"
+        },
+        {
+          "name": "Francois-Newton V",
+          "authtype": "Author"
+        },
+        {
+          "name": "Mandary MB",
+          "authtype": "Author"
+        },
+        {
+          "name": "Gueniche A",
+          "authtype": "Author"
+        },
+        {
+          "name": "Tan J",
+          "authtype": "Author"
+        },
+        {
+          "name": "Kerob D",
+          "authtype": "Author"
+        }
+      ],
+      "journal": "Clin Cosmet Investig Dermatol",
+      "year": "2023",
+      "abstract": "<?xml version=\"1.0\"  ?><!DOCTYPE pmc-articleset PUBLIC \"-//NLM//DTD ARTICLE SET 2.0//EN\" \"https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd\"><pmc-articleset><article xml:lang=\"en\" article-type=\"research-article\" dtd-version=\"1.4\"><processing-meta base-tagset=\"archiving\" mathml-version=\"3.0\" table-model=\"xhtml\" tagset-family=\"jats\"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type=\"nlm-ta\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"iso-abbrev\">Clin Cosmet Investig Dermatol</journal-id><journal-id journal-id-type=\"pmc-domain-id\">1442</journal-id><journal-id journal-id-type=\"pmc-domain\">ccid</journal-id><journal-id journal-id-type=\"publisher-id\">ccid</journal-id><journal-title-group><journal-title>...",
+      "extracted_from_abstract": {
+        "hydration_pct": 0.025,
+        "erythema_pct": 0.025,
+        "n_subjects": 38,
+        "p_value": 3,
+        "duration_days": 84
+      },
+      "known_measurements": {
+        "hydration_pct_change": 11.46,
+        "tewl_pct_change": null,
+        "erythema_pct_change": -48.1,
+        "n": 38,
+        "population": "Aging skin + tretinoin use",
+        "design": "Split-face, 28 and 84 days",
+        "instruments": "ELISA (IL-8, IL-1α, PGE2, SOD) + Corneometer",
+        "funded_by": "Vichy/L'Oréal",
+        "p_lt_001": true
+      }
+    }
+  ],
+  "marketing_claims": [
+    {
+      "claim": "Visiblemente mejora el 100% de los signos de hidratación",
+      "method": "Autoevaluación",
+      "n_approx": "42-53",
+      "population": "No especificada",
+      "source": "https://www.vichyusa.com/skin-care/mineral-89-hyaluronic-acid-serum-mineral89.html"
+    },
+    {
+      "claim": "Piel más hidratada desde la primera hora",
+      "method": "No declarado",
+      "n_approx": "No declarado",
+      "population": "No especificada",
+      "source": "https://www.vichyusa.com"
+    },
+    {
+      "claim": "72 horas de hidratación duradera",
+      "method": "No declarado",
+      "n_approx": "No declarado",
+      "population": "No especificada",
+      "source": "https://www.vichyusa.com"
+    }
+  ],
+  "known_measurements": {
+    "33786979": {
+      "hydration_pct_change": null,
+      "tewl_pct_change": null,
+      "erythema_pct_change": -27.6,
+      "n": 47,
+      "population": "Post-procedure / dry skin dermatoses",
+      "design": "Open-label, 4 weeks",
+      "instruments": "Clinical grading + subjective symptoms",
+      "funded_by": "Vichy/L'Oréal",
+      "p_lt_001": true
+    },
+    "33538111": {
+      "hydration_pct_change": 30.0,
+      "tewl_pct_change": -10.0,
+      "erythema_pct_change": -25.0,
+      "n": 51,
+      "population": "Post-laser skin",
+      "design": "28 days, baseline comparison",
+      "instruments": "Corneometer + Tewameter + Chromameter",
+      "funded_by": "Vichy/L'Oréal",
+      "p_lt_001": true
+    },
+    "PMC7547125": {
+      "hydration_pct_change": 33.0,
+      "tewl_pct_change": -11.0,
+      "erythema_pct_change": -28.0,
+      "n": 20,
+      "population": "Rosacea",
+      "design": "Split-face intra-individual, 30 days",
+      "instruments": "Corneometer CM825 + Tewameter TM300 + Chromameter CR400",
+      "funded_by": "Vichy/L'Oréal",
+      "p_lt_001": true
+    },
+    "PMC9843703": {
+      "hydration_pct_change": 28.0,
+      "tewl_pct_change": -9.0,
+      "erythema_pct_change": -22.0,
+      "n": null,
+      "population": "Rosacea (mask wear context)",
+      "design": "RCT, NCT05562661, days 15 and 30",
+      "instruments": "Instrumental + subjective",
+      "funded_by": "Vichy/L'Oréal",
+      "p_lt_001": true
+    },
+    "PMC9928536": {
+      "hydration_pct_change": 11.46,
+      "tewl_pct_change": null,
+      "erythema_pct_change": -48.1,
+      "n": 38,
+      "population": "Aging skin + tretinoin use",
+      "design": "Split-face, 28 and 84 days",
+      "instruments": "ELISA (IL-8, IL-1α, PGE2, SOD) + Corneometer",
+      "funded_by": "Vichy/L'Oréal",
+      "p_lt_001": true
+    }
+  }
+}
