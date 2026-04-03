@@ -53,4 +53,13 @@ y compararlo con estándares de la literatura dermatológica independiente.
 
 ## Stack
 
-Python · pandas · matplotlib · requests · BeautifulSoup (solo para claim scraping público)
+Python · pandas · matplotlib · numpy · scipy
+
+## Fuentes
+
+- Clarys P et al. (2012). *Hydration measurements of the skin: a comparison of several methods*. Skin Research and Technology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22564014/)
+- Fluhr JW et al. (2006). *Glycerol and the skin: holistic approach to its origin and functions*. British Journal of Dermatology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16704648/)
+- Darlenski R et al. (2009). *Skin moisturizers: review and clinical classification*. Journal of Dermatological Science. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19428228/)
+- Setaro M, Sparavigna A (2001). *Irregularity index and skin hydration: study on the different skin sites and phototypes*. Skin Research and Technology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/11453527/)
+- COLIPA (2008). *Guidelines for the Evaluation of the Efficacy of Cosmetic Products*. European Cosmetics Association. [colipa.eu](https://www.colipa.eu)
+- Olay Regenerist claims. [olay.com](https://www.olay.com)
