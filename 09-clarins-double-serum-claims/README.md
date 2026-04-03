@@ -1,5 +1,7 @@
 # ¿Los estudios de Clarins Double Serum aguantan un análisis estadístico?
 
+[![CI](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml/badge.svg)](https://github.com/aroaxinping/data-playground/actions/workflows/validate.yml)
+
 Clarins es de las pocas marcas cosméticas que publica metodología real: tamaños de muestra,
 métodos de medición, duración y tipo de estudio. Eso lo convierte en el caso ideal para analizar
 si los claims de marketing se sostienen con los datos que ellos mismos declaran.
