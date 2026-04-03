@@ -21,7 +21,7 @@ Personal data projects for learning, experimentation, and turning curiosity into
 | 10 | [Vichy Minéral 89](./10-vichy-mineral89/) | ¿El marketing dice lo mismo que los estudios publicados? | pandas, scipy |
 | 11 | [Machine Learning de 0 a Viral](./11-machine-learning/) | 5 notebooks ML progresivos: regresión lineal → XGBoost → predictor viral | scikit-learn, xgboost, shap |
 | 12 | [Spotify Wrapped Pero Real](./12-spotify-wrapped/) | Análisis de historial de escucha que el Wrapped oficial no hace | scikit-learn, matplotlib |
-| 13 | [NLP Comentarios](./13-nlp-comentarios/) | Análisis de texto de comentarios: sentimiento, topics, n-gramas | nltk, scikit-learn, wordcloud |
+| 13 | [Análisis de Comentarios](./13-analisis-comentarios/) | Qué dice mi audiencia: sentimiento, topics, frases frecuentes | nltk, scikit-learn, wordcloud |
 
 ## Stack
 
