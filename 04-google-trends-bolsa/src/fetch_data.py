@@ -15,7 +15,7 @@ DATA_DIR.mkdir(exist_ok=True)
 
 KEYWORDS  = ["recesión", "crisis económica", "despido", "paro"]
 GEO       = "ES"
-TIMEFRAME = "2010-01-01 2024-12-31"
+TIMEFRAME = "2021-01-01 2024-12-31"  # 3 years to get weekly granularity from Trends
 IBEX_TICKER = "^IBEX"
 
 
@@ -67,8 +67,11 @@ def fetch_ibex():
 
     print("Descargando IBEX 35 (Yahoo Finance)...")
     try:
-        ibex = yf.download(IBEX_TICKER, start="2010-01-01", end="2024-12-31",
-                           interval="1wk", progress=False)
+        ibex = yf.download(IBEX_TICKER, start="2021-01-01", end="2024-12-31",
+                           interval="1wk", progress=False, auto_adjust=True)
+        # yfinance >=0.2 returns MultiIndex columns — flatten
+        if isinstance(ibex.columns, pd.MultiIndex):
+            ibex.columns = ibex.columns.get_level_values(0)
         ibex = ibex[["Close"]].rename(columns={"Close": "ibex_close"})
         ibex.index.name = "date"
         ibex = ibex.reset_index()
@@ -89,6 +92,9 @@ if __name__ == "__main__":
     if trends is not None and ibex is not None:
         trends["date"] = pd.to_datetime(trends["date"])
         ibex["date"]   = pd.to_datetime(ibex["date"])
+        # Normalize both to Monday of each week so dates align (Trends=Sunday, IBEX=Monday)
+        trends["date"] = trends["date"] - pd.to_timedelta(trends["date"].dt.dayofweek, unit="D")
+        ibex["date"]   = ibex["date"]   - pd.to_timedelta(ibex["date"].dt.dayofweek, unit="D")
         merged = pd.merge(trends, ibex, on="date", how="inner")
         out = DATA_DIR / "trends_ibex_merged.csv"
         merged.to_csv(out, index=False)
