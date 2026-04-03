@@ -68,4 +68,21 @@ dónde hay coherencia y dónde hay exageración.
 
 ## Stack
 
-Python · pandas · scipy · matplotlib · requests · BeautifulSoup (solo para claims públicos)
+Python · pandas · scipy · matplotlib · numpy
+
+## Fuentes
+
+Estudios publicados (acceso abierto):
+- Vichy M89 rosacea split-face (n=20, 30 días). [PMC7547125](https://pmc.ncbi.nlm.nih.gov/articles/PMC7547125/)
+- Vichy M89PF rosacea RCT con mascarilla. [PMC9843703](https://pmc.ncbi.nlm.nih.gov/articles/PMC9843703/)
+- Vichy M89PF antienvejecimiento con tretinoína (n=38, 84 días). [PMC9928536](https://pmc.ncbi.nlm.nih.gov/articles/PMC9928536/)
+- Vichy M89 post-procedimiento, Canadá (n=47, 4 semanas). [PMID 33786979](https://pubmed.ncbi.nlm.nih.gov/33786979/)
+- Vichy M89 post-láser (n=51, 28 días). [PMID 33538111](https://pubmed.ncbi.nlm.nih.gov/33538111/)
+
+Literatura independiente:
+- Fluhr JW et al. (2006). *Glycerol and the skin*. British Journal of Dermatology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16704648/)
+- Darlenski R et al. (2009). *Skin moisturizers: review*. Journal of Dermatological Science. [PubMed](https://pubmed.ncbi.nlm.nih.gov/19428228/)
+- Proksch E et al. (2008). *Skin moisturizing is necessary at any age*. Skin Pharmacology and Physiology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/18689958/)
+
+Claims de marketing:
+- Vichy Minéral 89 official page. [vichyusa.com](https://www.vichyusa.com/skin-care/mineral-89-hyaluronic-acid-serum-mineral89.html)
