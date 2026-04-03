@@ -1,87 +1,27 @@
 # data-playground
+
 Answering my own random questions with real data.
 Personal data projects for learning, experimentation, and turning curiosity into insights.
 
 ---
 
-## Projects
+## Proyectos
 
-### 1. [Pokemon Legendary Analysis](./01-pokemon-legendary-analysis/)
-Exploratory analysis to identify which characteristics define a legendary Pokemon.
-
-**Dataset:** 800 Pokemon · **Stack:** Python, pandas, matplotlib
-
----
-
-### 2. [Tech Salaries & Remote Work](./02-tech-salaries-remote-work/)
-Analysis of salary factors in tech and the impact of remote work.
-
-**Dataset:** Stack Overflow Survey (89K+ devs) · **Stack:** Python, pandas, matplotlib
-
----
-
-### 3. [Petroleo, Guerras y el Surtidor](https://github.com/aroaxinping/data-playground-gasolina)
-Correlation and causality between geopolitical conflicts and petrol prices in Spain. Pearson, Lag, Granger, Event Study, Rocket & Feather.
-
-**Dataset:** Brent (FRED) + MITECO · **Stack:** Python, pandas, statsmodels
-
----
-
-### 4. [Google Trends vs IBEX 35](./04-google-trends-bolsa/)
-¿Las búsquedas de "recesión" en Google predicen caídas de la bolsa española?
-Lag correlation, Granger causality y event study sobre datos de comportamiento online.
-
-**Dataset:** pytrends + yfinance (gratis, sin API key) · **Stack:** Python, pandas, statsmodels
-
----
-
-### 5. [Spotify: ¿Las canciones tristes arrasan más en invierno?](./05-spotify-tristeza/)
-Análisis de valence, energy y estacionalidad en 8000+ tracks.
-Pearson, Mann-Whitney y clustering K-Means por emoción musical.
-
-**Dataset:** Spotify API / Kaggle · **Stack:** Python, pandas, sklearn
-
----
-
-### 6. [Vivienda Valencia: ¿La DANA disparó el alquiler?](./06-vivienda-valencia/)
-Event study y Diferencia en Diferencias sobre el impacto de las inundaciones
-del 29 octubre 2024 en el mercado inmobiliario valenciano.
-
-**Dataset:** MITMA + INE + GVA datos abiertos · **Stack:** Python, pandas, statsmodels
-
----
-
-### 7. [Bitcoin & Fear: ¿El pánico del mercado predice el precio?](./07-bitcoin-fear/)
-¿Cuando el Fear & Greed Index marca pánico extremo, el Bitcoin sube o cae?
-Lag correlation, event study y Rocket & Feather test.
-
-**Dataset:** CoinGecko API + Alternative.me (gratis, sin API key) · **Stack:** Python, pandas
-
----
-
-### 8. [¿El "89% más hidratación" de Olay es real?](./08-olay-89-claim/)
-Deconstrucción estadística del claim de marketing más famoso de la industria cosmética.
-¿89% más que qué baseline? ¿Con cuántos sujetos? ¿Método objetivo o subjetivo?
-
-**Dataset:** Claims públicos + literatura dermatológica (PubMed) · **Stack:** Python, pandas, matplotlib
-
----
-
-### 9. [¿Los estudios de Clarins Double Serum aguantan un análisis estadístico?](./09-clarins-double-serum-claims/)
-Clarins publica metodología real: n declarado, método de medición y duración por estudio.
-Análisis de potencia estadística, subjetivo vs instrumental, y validez del diseño de gemelos.
-
-**Dataset:** Metodología publicada por Clarins + PubMed · **Stack:** Python, pandas, scipy, matplotlib
-
----
-
-### 10. [Vichy Minéral 89: ¿El marketing dice lo mismo que los estudios publicados?](./10-vichy-mineral89/)
-Vichy tiene estudios reales en PubMed con Corneómetro, Tewameter y grupos control.
-¿Los claims de marketing usan esos datos honestamente? ¿Rosácea = "todas las pieles"?
-
-**Dataset:** 5 estudios PMC/PubMed (acceso abierto) + claims web oficial · **Stack:** Python, pandas, scipy, matplotlib
-
----
+| # | Proyecto | Qué es | Stack |
+|---|----------|--------|-------|
+| 1 | [Pokemon Legendary Analysis](./01-pokemon-legendary-analysis/) | Qué características definen a un Pokemon legendario | pandas, matplotlib |
+| 2 | [Tech Salaries & Remote Work](./02-tech-salaries-remote-work/) | Salarios tech y el impacto del trabajo remoto | pandas, matplotlib |
+| 3 | [Gasolina, Guerras y Causalidad](./03-gasolina-guerras/) | Correlación y causalidad entre conflictos geopolíticos y precio de la gasolina | pandas, scipy, statsmodels |
+| 4 | [Google Trends vs IBEX 35](./04-google-trends-bolsa/) | ¿Las búsquedas de "recesión" en Google predicen caídas de la bolsa española? | pandas, statsmodels |
+| 5 | [Spotify: ¿Canciones tristes en invierno?](./05-spotify-tristeza/) | Valence, energy y estacionalidad en 8000+ tracks | pandas, sklearn |
+| 6 | [Vivienda Valencia: ¿La DANA disparó el alquiler?](./06-vivienda-valencia/) | Event study y DiD sobre el impacto de las inundaciones | pandas, statsmodels |
+| 7 | [Bitcoin & Fear](./07-bitcoin-fear/) | ¿El pánico del mercado predice el precio de Bitcoin? | pandas |
+| 8 | [¿El "89% más hidratación" de Olay es real?](./08-olay-89-claim/) | Deconstrucción estadística de claims de marketing cosmético | pandas, matplotlib |
+| 9 | [¿Los estudios de Clarins aguantan?](./09-clarins-double-serum-claims/) | Análisis de potencia estadística y validez de claims | pandas, scipy |
+| 10 | [Vichy Minéral 89](./10-vichy-mineral89/) | ¿El marketing dice lo mismo que los estudios publicados? | pandas, scipy |
+| 11 | [Machine Learning de 0 a Viral](./11-machine-learning/) | 5 notebooks ML progresivos: regresión lineal → XGBoost → predictor viral | scikit-learn, xgboost, shap |
+| 12 | [Spotify Wrapped Pero Real](./12-spotify-wrapped/) | Análisis de historial de escucha que el Wrapped oficial no hace | scikit-learn, matplotlib |
+| 13 | [NLP Comentarios](./13-nlp-comentarios/) | Análisis de texto de comentarios: sentimiento, topics, n-gramas | nltk, scikit-learn, wordcloud |
 
 ## Stack
 
@@ -90,3 +30,5 @@ Vichy tiene estudios reales en PubMed con Corneómetro, Tewameter y grupos contr
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.x-11557c)
 ![Jupyter](https://img.shields.io/badge/Jupyter-notebook-orange?logo=jupyter)
 ![statsmodels](https://img.shields.io/badge/statsmodels-0.14-4c72b0)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-f7931e)
+![xgboost](https://img.shields.io/badge/xgboost-2.0-006600)
