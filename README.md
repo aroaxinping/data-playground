@@ -19,6 +19,12 @@ Personal data projects for learning, experimentation, and turning curiosity into
 | 8 | [¿El "89% más hidratación" de Olay es real?](./08-olay-89-claim/) | Deconstrucción estadística de claims de marketing cosmético | pandas, matplotlib |
 | 9 | [¿Los estudios de Clarins aguantan?](./09-clarins-double-serum-claims/) | Análisis de potencia estadística y validez de claims | pandas, scipy |
 | 10 | [Vichy Minéral 89](./10-vichy-mineral89/) | ¿El marketing dice lo mismo que los estudios publicados? | pandas, scipy |
+| 11 | [Machine Learning de 0 a Viral](./11-machine-learning/) | 5 notebooks ML progresivos: regresión lineal → XGBoost → predictor viral | scikit-learn, xgboost, shap |
+| 12 | [Spotify Wrapped Pero Real](./12-spotify-wrapped/) | Análisis de historial de escucha que el Wrapped oficial no hace | scikit-learn, matplotlib |
+| 13 | [Análisis de Comentarios](./13-analisis-comentarios/) | Qué dice mi audiencia: sentimiento, topics, frases frecuentes | nltk, scikit-learn, wordcloud |
+| 14 | [A/B Testing](./14-ab-testing/) | Experimento A/B completo: z-test, power analysis, segmentación y Simpson's paradox | scipy, statsmodels |
+| 15 | [Time Series Forecasting](./15-time-series-forecasting/) | ARIMA, SARIMA y Prophet sobre airline passengers + ventas sintéticas | statsmodels, prophet |
+| 16 | [Deep Learning Intro](./16-deep-learning-intro/) | De Random Forest a CNN con PyTorch: MLP, CNN, dropout en MNIST | pytorch, scikit-learn |
 
 ## CI
 
@@ -31,3 +37,7 @@ Personal data projects for learning, experimentation, and turning curiosity into
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.x-11557c)
 ![Jupyter](https://img.shields.io/badge/Jupyter-notebook-orange?logo=jupyter)
 ![statsmodels](https://img.shields.io/badge/statsmodels-0.14-4c72b0)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-f7931e)
+![xgboost](https://img.shields.io/badge/xgboost-2.0-006600)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch)
+![Prophet](https://img.shields.io/badge/Prophet-1.x-3b5998)
