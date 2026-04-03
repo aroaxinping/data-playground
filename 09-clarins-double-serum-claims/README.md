@@ -63,3 +63,13 @@ Publican estudios con n declarado, método y duración. ¿Tienen sentido estadí
 ## Stack
 
 Python · pandas · scipy · matplotlib · numpy
+
+## Fuentes
+
+- Clarins Group R&D. *Double Serum clinical studies*. [groupeclarins.com](https://www.groupeclarins.com/en/research-and-development/)
+- Clarins Double Serum product page. [clarins.com](https://www.clarins.com/double-serum)
+- Draelos ZD (2010). *Active agents in common skin care products*. Plastic and Reconstructive Surgery. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20048601/)
+- Cohen J (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum Associates.
+- Clarys P et al. (2012). *Hydration measurements of the skin*. Skin Research and Technology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22564014/)
+- Zhu G et al. (2011). *A genome-wide association analysis of skin aging in a discovery and replication study*. Twin Research and Human Genetics. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22093225/)
+- Fluhr JW et al. (2006). *Glycerol and the skin*. British Journal of Dermatology. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16704648/)
