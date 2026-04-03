@@ -1,0 +1,28 @@
+# Data Playground: Machine Learning de 0 a Viral
+# Instalar con: pip install -r requirements.txt
+
+# Core data
+pandas>=2.0
+numpy>=1.24
+
+# Machine Learning
+scikit-learn>=1.3
+xgboost>=2.0
+
+# Explainability
+shap>=0.43
+
+# Visualización
+matplotlib>=3.8
+seaborn>=0.13
+
+# Descarga de datos
+requests>=2.31
+
+# Jupyter
+notebook>=7.0
+jupyterlab>=4.0
+
+# Extras útiles
+tabulate>=0.9     # para .to_markdown()
+emoji>=2.0        # detección emojis en proyecto 5
