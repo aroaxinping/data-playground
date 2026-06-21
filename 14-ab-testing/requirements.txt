@@ -1,0 +1,17 @@
+# Data playground: A/B Testing
+# Instalar con: pip install -r requirements.txt
+
+# Core data
+pandas>=2.0
+numpy>=1.24
+
+# Estadistica
+scipy>=1.11
+statsmodels>=0.14
+
+# Visualizacion
+matplotlib>=3.8
+
+# Jupyter
+notebook>=7.0
+jupyterlab>=4.0
